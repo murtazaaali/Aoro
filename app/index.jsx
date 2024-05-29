@@ -5,10 +5,14 @@ import { styled } from "nativewind";
 
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-3xl">Aora!</Text>
-      <StatusBar style="auto" />
-      <Link href='/profile' style={{ color: 'blue' }}>Go to Profile</Link>
+    <View>
+      <div className="flex !items-center justify-center bg-slate-600">
+        <Text className="text-3xl">Aora!</Text>
+        <StatusBar style="auto" />
+        <Link href="/profile" style={{ color: "blue" }}>
+          Go to Profile
+        </Link>
+      </div>
     </View>
   );
 }
